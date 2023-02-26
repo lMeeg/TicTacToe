@@ -20,7 +20,7 @@ The algorithm assumes that the human player always plays optimally.
 
 ## Issues Faced
 One of the challenges I encountered while developing the Tic-Tac-Toe game was how to implement an algorithm to check for a win. Initially, I used multiple if statements to check for every possible combination of three marks in a row, column, or diagonal, which wasn't efficient. Afterward, I created an algorithm to compare the marks on the board in each row, column, and diagonal to check for a win, which resulted in a more optimized code that was easier to read and maintain. The algorithm checks each row, column, and diagonal by using a list of tuples, where each tuple contains three positions that represent a row, column, or diagonal. If the marks on these positions are the same, the function returns True. This approach is more elegant and efficient than the previous implementation using multiple if statements.
-##Installation and Playing the Game
+## Installation and Playing the Game
 1.	Install Python 3.10.10
 2.	Download the Tic-Tac-Toe project source code
 3.	Run the file named tictactoe.py from the command prompt
